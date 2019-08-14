@@ -2,7 +2,7 @@ require "pry"
 
 def oxford_comma(array)
   if array.length == 2 
-    array.join(" and ")
+    return array.join(" and ")
   elsif array.length >= 3 
     last_letter = array.pop
     new_array = array.join(", ")
